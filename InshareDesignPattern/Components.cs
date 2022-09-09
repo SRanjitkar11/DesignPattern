@@ -29,7 +29,7 @@
     public class AttributesValue : Components
     {
         Components values;
-        public AttributesValue(int id, string name) : base(id, name)
+        public AttributesValue(int id, string value) : base(id, value)
         {
         }
 
@@ -65,7 +65,7 @@
         public override void Dsiplay(int indent)
         {
             Console.WriteLine(new string(' ', indent) + "* Attribute: " + Name + ": " + DataType);
-            foreach(Components c in attributes)
+            foreach (Components c in attributes)
             {
                 c.Dsiplay(indent + 2);
             }
@@ -76,6 +76,7 @@
             attributes.Remove(a);
         }
     }
+
     public class Element : Components
     {
         List<Components> elements = new List<Components>();

@@ -27,13 +27,19 @@ public class Program
         category2.Add(new Element(2, "Weight"));
         category2.Dsiplay(0);
 
-        //Console.WriteLine();
+        Console.WriteLine();
 
-        //AttributeValue attribute;
-        //Builder builder = new Builder();
-        //attribute = new Customer1();
-        //builder.Construct(attribute);
-        //attribute.Attribute.Show();
+        AttributeValue attribute;
+        Builder builder = new Builder();
+        attribute = new Customer1();
+        builder.Construct(attribute);
+        attribute.Attribute.Show();
+
+        Console.WriteLine();
+        
+        attribute = new Customer2();
+        builder.Construct(attribute);
+        attribute.Attribute.Show();
 
         Console.ReadKey();
     }
