@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\suneer.ranjitkar\\OneDrive - Vesuvio Labs\\Documents\\Repos\\Inshare\\InshareDesignPattern\\InshareDesignPattern.csproj": {}
+    "C:\\Users\\suneer.ranjitkar\\OneDrive - Vesuvio Labs\\Documents\\GitHub\\DesignPattern\\InshareDesignPattern\\InshareDesignPattern.csproj": {}
   },
   "projects": {
-    "C:\\Users\\suneer.ranjitkar\\OneDrive - Vesuvio Labs\\Documents\\Repos\\Inshare\\InshareDesignPattern\\InshareDesignPattern.csproj": {
+    "C:\\Users\\suneer.ranjitkar\\OneDrive - Vesuvio Labs\\Documents\\GitHub\\DesignPattern\\InshareDesignPattern\\InshareDesignPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\suneer.ranjitkar\\OneDrive - Vesuvio Labs\\Documents\\Repos\\Inshare\\InshareDesignPattern\\InshareDesignPattern.csproj",
+        "projectUniqueName": "C:\\Users\\suneer.ranjitkar\\OneDrive - Vesuvio Labs\\Documents\\GitHub\\DesignPattern\\InshareDesignPattern\\InshareDesignPattern.csproj",
         "projectName": "InshareDesignPattern",
-        "projectPath": "C:\\Users\\suneer.ranjitkar\\OneDrive - Vesuvio Labs\\Documents\\Repos\\Inshare\\InshareDesignPattern\\InshareDesignPattern.csproj",
+        "projectPath": "C:\\Users\\suneer.ranjitkar\\OneDrive - Vesuvio Labs\\Documents\\GitHub\\DesignPattern\\InshareDesignPattern\\InshareDesignPattern.csproj",
         "packagesPath": "C:\\Users\\suneer.ranjitkar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\suneer.ranjitkar\\OneDrive - Vesuvio Labs\\Documents\\Repos\\Inshare\\InshareDesignPattern\\obj\\",
+        "outputPath": "C:\\Users\\suneer.ranjitkar\\OneDrive - Vesuvio Labs\\Documents\\GitHub\\DesignPattern\\InshareDesignPattern\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
